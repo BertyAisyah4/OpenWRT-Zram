@@ -16,23 +16,11 @@ Target config:
 Run:
 
 ```sh
-chmod +x activate-swap-openwrt.sh
-./activate-swap-openwrt.sh
+wget -O /tmp/activate-swap-openwrt.sh https://raw.githubusercontent.com/BertyAisyah4/OpenWRT-Zram/main/activate-swap-openwrt.sh && chmod +x /tmp/activate-swap-openwrt.sh && sh /tmp/activate-swap-openwrt.sh
 ```
 
-## Script
-
-```sh
-uci set system.@system[0].zram_size_mb='200'
-uci set system.@system[0].zram_comp_algo='lz4'
-uci set system.@system[0].zram_priority='100'
-uci set system.@system[0].swapiness='80'
-uci commit system
-
-sysctl -w vm.swappiness=80
-
-/etc/init.d/zram restart
-```
+## Notes
+Edit Script Jika Merasa Swap Kurang.
 
 ## Verify Output
 
