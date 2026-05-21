@@ -1,10 +1,12 @@
 # OpenWRT Zram Swap
-............................
+
+<pre>
  /\_/\
 ( o.o )  OpenWRT Zram Swap
  > ^ <   Creator: MEOWMEOW
+</pre>
 
-............................
+**Enable Zram On ReyreWRT**
 
 Simple zram swap activation for OpenWrt/ReyreWRT.
 
