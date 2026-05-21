@@ -1,6 +1,9 @@
-# Activate Swap OpenWrt
+# ==========================================================
+#   /\_/\
+#  ( o.o )  OpenWRT Zram Swap Activator
+#   > ^ <   Creator: MEOWMEOW
+# ==========================================================
 
-Creator: MEOWMEOW
 
 Simple zram swap activation for OpenWrt/ReyreWRT.
 
